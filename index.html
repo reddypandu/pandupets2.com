@@ -276,9 +276,7 @@
             font-size: 20px;
         }
         .p1,.p2,.p3,.p4{
-            margin:0;
-            width:450px;
-            height:250px;
+            border-radius: 16px;
             background-color: white;
         }
         .wcu-clients{
@@ -289,6 +287,9 @@
             font-weight: 900;
             font-size: 8vmin;
             padding:0;
+        }
+        .wcu-clients p,.wcu-clients h4,.wcu-clients h6{
+            width:auto;
         }
         .d{
             display: flex;
@@ -476,44 +477,40 @@
         </div>
     </div>
 </div>
-    <div class="wcu-clients" id="clients">
-        <div class="containner">
-            <div class="row" style="margin:0;">
-                <div class="col-12 text-center p-2" style="padding:0;">
-                   <h1 class="h m-5">What Our Loved clients say</h1>
+    <div class="wcu-clients p-5" id="clients">
+        <div class="containner-fluid">
+            <div class="row">
+                <div class="col-12">
+                   <h1 class="h text-center m-3">What Our Loved clients say</h1>
                 </div>
-                  <center><div class="mb-5" style="margin-left:45px;">
-                        <div class="col-12 col-lg-3 m-3">
-                            <div class="shadow p1 p-4" style="border-radius: 20px;">
-                                <p>"I recently took my beloved dog to HANVI'S Pet Clinic for a routine check-up, and I was blown away by the level of care and attention that he received. The staff was friendly and welcoming, and the clinic itself was clean and well-maintained.</p>
-                                <h4>Kavya</h4>
-                                <h6>Designation</h6>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-3 m-3">
-                            <div class="shadow p2 p-4" style="border-radius: 20px;">
-                                <p>The veterinary doctor who examined my dog was thorough and knowledgeable, taking the time to answer all of my questions and explain everything that she was doing. she was genuinely caring and compassionate towards my pet, making sure that he was comfortable and at ease throughout the examination.</p>
-                                <h4>Mithil</h4>
-                                <h6>Software Engineer</h6>
-                            </div>
-                        </div>
-                    </div></center>
-                    <center><div class="" style="margin-left:45px;">
-                    <div class="col-12 col-lg-3 m-3">
-                        <div class="shadow p3 p-4" style="border-radius: 20px;">
-                            <p class="">I was also impressed by the range of services that HANVI'S offers, from preventive care to emergency services. It was reassuring to know that my pet was in good hands and that the clinic was equipped to handle any medical needs that may arise.</p>
-                            <h4>Bhuvan</h4>
-                            <h6>Realtor</h6>
-                        </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow p1 p-3 mb-3">
+                        <p>"I recently took my beloved dog to HANVI'S Pet Clinic for a routine check-up, and I was blown away by the level of care and attention that he received. The staff was friendly and welcoming, and the clinic itself was clean and well-maintained.</p>
+                        <h4>Kavya</h4>
+                        <h6>Designation</h6>
                     </div>
-                    <div class="col-12 col-lg-3 m-3">
-                        <div class="shadow p4 p-4" style="border-radius: 20px;">
-                            <p>Overall, I would highly recommend Yashasvi Reddy to anyone looking for quality veterinary care for their pets. The level of professionalism and expertise demonstrated by the staff was truly exceptional, and I am grateful for the peace of mind that comes with knowing that my pet is in the best possible hands."</p>
-                            <h4>Krishna Naidu</h4>
-                            <h6>Media</h6>
-                        </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow p2 p-3 mb-3">
+                        <p>The veterinary doctor who examined my dog was thorough and knowledgeable, taking the time to answer all of my questions and explain everything that she was doing. she was genuinely caring and compassionate towards my pet, making sure that he was comfortable and at ease throughout the examination.</p>
+                        <h4>Mithil</h4>
+                        <h6>Software Engineer</h6>
                     </div>
-                    </div></center>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow p3 p-3 mb-3">
+                        <p class="">I was also impressed by the range of services that HANVI'S offers, from preventive care to emergency services. It was reassuring to know that my pet was in good hands and that the clinic was equipped to handle any medical needs that may arise.</p>
+                        <h4>Bhuvan</h4>
+                        <h6>Realtor</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow p4 p-3 mb-3">
+                        <p>Overall, I would highly recommend Yashasvi Reddy to anyone looking for quality veterinary care for their pets. The level of professionalism and expertise demonstrated by the staff was truly exceptional, and I am grateful for the peace of mind that comes with knowing that my pet is in the best possible hands."</p>
+                        <h4>Krishna Naidu</h4>
+                        <h6>Media</h6>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -585,6 +582,10 @@
         </div>
     </div>
     <style>
+        .wcu-contact{
+            background-color: #000000;
+            color:#FFF;
+        }
         .wcu-bottom ul{
             display: flex;
             justify-content: space-around;
