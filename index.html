@@ -136,60 +136,123 @@
             width:400px;
         }
         #myVideo{
+            max-width:auto;
+            min-width: 400px;
             max-height:400px;
             min-height:400px;
         }
         .page13{
-
+            max-height:50%;
+        }
+        .page13 h1{
+            font-size:35px;
+            margin-bottom:20px;
+        }
+        .page13 .pets{
+            font-size:75px;
+        }
+        .page13 p{
+            font-size: 10px;
         }
         .banner-section-bg-container{
             min-height:400px;
             max-height:400px;
         }
-       }
-       @media only screen and (max-width:720px){
-        .banner-section-bg-container{
-            height:85vh;
-        }
-        
-        .page13{
-            margin:0;
-            min-height:50%;
+        .logo{
+            max-width:70px;
+            max-height:70px;
         }
        }
-       @media only screen and (min-width:720px) and (max-width:1170px){
-        .banner-section-bg-container{
-            height:85vh;
+       @media only screen and (min-width:400px) and (max-width:720px){
+        body{
+            width:720px;
         }
         #myVideo{
-            max-height:100%;
-            min-height: 100%;
+            max-width:auto;
+            min-width: 720px;
+            max-height:600px;
+            min-height:600px;
+        }
+        .page13{
+            max-height:50%;
+        }
+        .page13 h1{
+            font-size:55px;
+            margin-bottom:20px;
+        }
+        .page13 .pets{
+            font-size:85px;
+        }
+        .page13 p{
+            font-size: 15px;
+        }
+        .banner-section-bg-container{
+            min-height:600px;
+            max-height:600px;
+        }
+        .b-logo{
+            margin:0;
+            
         }
        }
-       @media only screen and (min-width:992px){
-        .logo{
-            margin-top:40px;
+       @media only screen and (min-width:720px) and (max-width:992px){
+        body{
+            width:992px;
+        }
+        #myVideo{
+            max-width:auto;
+            min-width: 992px;
+            max-height:800px;
+            min-height:800px;
+        }
+        .page13{
+            max-height:50%;
+        }
+        .page13 h1{
+            font-size:90px;
+
+        }
+        .page13 .pets{
+            font-size:140px;
+        }
+        .page13 p{
+            font-size: 26px;
+        }
+        .banner-section-bg-container{
+            min-height:800px;
+            max-height:800px;
+        }
+        .b-logo{
+            margin:0;
+            
         }
        }
-       @media only screen and (max-width:991px){
-        .navbar{
-            background-color: #d065c421;
+       @media only screen and (min-width:992px) and (max-width:1170px){
+        body{
+            width:100%;
         }
-        .logo{
-            max-width:45px;
-            max-height:45px;
+        #myVideo{
+            max-width:auto;
+            min-width: 992px;
+            max-height:900px;
+            min-height:auto;
         }
-        .navbar-toggler{
-            width:30px;
-            height:30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        
+        .page13 h1{
+            font-size:110px;
         }
-        .pets{
-            font-size: 117px;
+        .page13 .pets{
+            font-size:150px;
+        }
+        .page13 p{
+            font-size: 26px;
+        }
+        .banner-section-bg-container{
+            min-height:auto;
+            max-height:900px;
         }
        }
+
        .wcu-section{
             width:auto;
             height:auto;
@@ -609,15 +672,15 @@
     <div class="wcu-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-12 p-3 col-lg-6 col-md-6 col-sm-10">
+                <div class="col-12 p-3 col-lg-1 col-md-1 col-sm-10">
                     <ul style="list-style-type: none;">
-                        <a href="#"><li class="text-dark">Home</li></a>
-                        <a href="index2.html"><li class="text-dark">About</li></a>
-                        <a href="index3.html"><li class="text-dark">Services</li></a>
-                        <a href="index1.html"><li class="text-dark">Contact</li></a>
+                        <a href="#"><li class="text-dark m-2">Home</li></a>
+                        <a href="index2.html"><li class="text-dark m-2">About</li></a>
+                        <a href="index3.html"><li class="text-dark m-2">Services</li></a>
+                        <a href="index1.html"><li class="text-dark m-2">Contact</li></a>
                     </ul>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6 col-sm-12 text-center">
+                <div class="col-12 col-lg-11 col-md-11 col-sm-12 text-center">
                     <a href="#"><img src="images/logo2.png" class="b-logo"></a>
                 </div>
             </div>
@@ -639,9 +702,6 @@
         .wcu-bottom li{
             color: #536942;
             font-size: 20px;
-        }
-        .wcu-bottom img{
-            margin-left: 100px;
         }
         .page102{
          width:100px;
