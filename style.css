@@ -45,3 +45,12 @@
     transform: translateX(0) rotate(0);
     opacity: 1;
 }
+.pricing .reveal{
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 0.7s all ease-in-out;
+}
+.pricing .active.reveal{
+    transform: translateY(0);
+    opacity: 1;
+}
