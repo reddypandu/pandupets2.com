@@ -106,6 +106,33 @@ footer{
     align-items: center;
     font-size: 10px;
 }
+        .wcu-b{
+            display: flex;
+            align-items: center;
+            background-color:#f3df11;
+            justify-content: space-evenly;
+        }
+        .wcu-b .link ul{
+            display: flex;
+            
+        }
+        .wcu-b ul li{
+            font-weight: bold;
+
+        }
+        .wcu-b .b{
+            margin-right:460px;
+            margin-bottom: 10px;
+        }
+        @media(max-width:850px){
+            .wcu-b{
+                flex-direction: column;
+                padding:10px;
+            }
+            .wcu-b .b{
+                margin:0;
+            }
+        }
       </style>
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
@@ -145,11 +172,19 @@ footer{
       </div>
   </div>
 </div>
-<footer>
-  <div class="container text-center">
-      <a href="index"><img src="./images/logo2.png" class="b-logo"></a>
+<div class="wcu-b">
+    <div class="link">
+        <ul style="list-style-type: none;">
+            <a href=""><li class="text-dark m-2">Home</li></a>
+            <a href="About.html"><li class="text-dark m-2">About</li></a>
+            <a href="Services.html"><li class="text-dark m-2">Services</li></a>
+            <a href="Contact.html"><li class="text-dark m-2">Contact</li></a>
+        </ul> 
+    </div>
+    <div>
+        <a href="index.html"><img src="./images/logo2.png" class="b-logo b"></a>
+    </div>
   </div>
-</footer>
 <div class="pandu">
         <p class="m-3 text-white">Copyright © 2023 HANVIS PET CLINIC | Powered by [<a href="https://www.thepatternscompany.com" target="blank" style="color: red;">THE PATTERNS COMPANY</a>]</p>
    </div>
