@@ -775,7 +775,7 @@
             </div>
         </div>
     </div>
-    <div class="wcu-bottom">
+    <!--<div class="wcu-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-12 p-3 col-lg-4 col-md-1 col-sm-10">
@@ -791,12 +791,51 @@
                 </div>
             </div>
         </div>
+    </div>-->
+    <div class="wcu-b">
+    <div class="link">
+        <ul style="list-style-type: none;">
+            <a href=""><li class="text-dark m-2">Home</li></a>
+            <a href="About.html"><li class="text-dark m-2">About</li></a>
+            <a href="Services.html"><li class="text-dark m-2">Services</li></a>
+            <a href="Contact.html"><li class="text-dark m-2">Contact</li></a>
+        </ul> 
     </div>
+    <div>
+        <a href="index.html"><img src="./images/logo2.png" class="b-logo b"></a>
+    </div>
+  </div>
     <div class="pandu">
         <p class="m-3 text-white">Copyright © 2023 HANVIS PET CLINIC | Powered by [<a href="https://www.thepatternscompany.com" target="blank" style="color: red;">THE PATTERNS COMPANY</a>]</p>
     </div>
     <style>
+       .wcu-b{
+            display: flex;
+            align-items: center;
+            background-color:#f3df11;
+            justify-content: space-evenly;
+        }
+        .wcu-b .link ul{
+            display: flex;
+            
+        }
+        .wcu-b ul li{
+            font-weight: bold;
 
+        }
+        .wcu-b .b{
+            margin-right:460px;
+            margin-bottom: 10px;
+        }
+        @media(max-width:850px){
+            .wcu-b{
+                flex-direction: column;
+                padding:10px;
+            }
+            .wcu-b .b{
+                margin:0;
+            }
+        }
         .vet:hover{
             transform: none;
         }
